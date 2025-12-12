@@ -10,8 +10,9 @@
 (*) Equal contribution
 
 
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2504.10117-red?logo=arXiv&logoColor=red)](https://arxiv.org/abs/2504.10117) -->
-[![License: MIT](https://img.shields.io/github/license/hustvl/GaussTR)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.10117-red?logo=arXiv&logoColor=red)](https://arxiv.org/abs/2512.10719)
+[![Project_Page](https://img.shields.io/badge/Project_Page-SpaceDrive-blue?logo=pagekit&logoColor=blue)](https://zhenghao2519.github.io/SpaceDrive_Page/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 </div>
 
@@ -21,9 +22,11 @@ End-to-end autonomous driving methods built on vision language models (VLMs) hav
 
 ![](./assets/architecture.png)
 
-<!-- ## 📰 News -->
+## 📰 News
 
-## 📰 Code
+- [2025/12/11] Paper is released on [arXiv](https://arxiv.org/abs/2512.10719).
+
+## ⌨️ Code
 The code is currently under the internal review process and will be released soon.
 
 ## 🎥 Visualizations
@@ -57,11 +60,12 @@ The code is currently under the internal review process and will be released soo
 ## 📜 License
 SpaceDrive is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
 
-<!-- ## 🔗 Citation -->
-<!-- ```
+## 🔗 Citation -->
+```
 @article{li2025spacedrive,
   title={SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving},
   author={Li, Peizheng and Zhang, Zhenghao and Holtz, David and Yu, Hang and Yang, Yutong and Lai, Yuzhi and Song, Rui and Geiger, Andreas and Zell, Andreas},
+  journal={arXiv preprint arXiv:2512.10719},
   year={2025}
 }
-``` -->
+```
