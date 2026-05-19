@@ -266,7 +266,7 @@ class CustomQwen2_5_VLForConditionalGeneration(Qwen2_5_VLForConditionalGeneratio
                 output_xy_mask = output_mask.masked_select(io_coords_pos_mask).view( -1, hidden_states.shape[-1]) # shape (bs, num_pos, hidden_states)
                 output_xy_mask = output_xy_mask[:,:2]
                 
-                gt_coords_xy = gt_coords_xy.masked_select(output_xy_mask).view(B, -1, gt_coords_xy.shape[-1]).to(gt_pos.dtype)
+                gt_coords_xy = gt_coords_xy.masked_select(output_xy_mask).to(gt_pos.dtype) # shape
 
         loss = None
         if labels is not None:
